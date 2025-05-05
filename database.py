@@ -4,3 +4,5 @@ connection = sqlite3.connect("student.db")
 
 cursor = connection.cursor() 
 
+# Create the table
+create_table_query="""
