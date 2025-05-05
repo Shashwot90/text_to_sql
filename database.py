@@ -6,3 +6,4 @@ cursor = connection.cursor()
 
 # Create the table
 create_table_query="""
+CREATE TABLE IF NOT EXISTS STUDENT (
