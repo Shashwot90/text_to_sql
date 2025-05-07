@@ -8,3 +8,5 @@ cursor = connection.cursor()
 create_table_query="""
 CREATE TABLE IF NOT EXISTS STUDENT (
     NAME    VARCHAR(25),
+    COURSE   VARCHAR(25),
+    
