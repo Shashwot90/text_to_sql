@@ -14,3 +14,5 @@ CREATE TABLE IF NOT EXISTS STUDENT (
 );
 """
 
+cursor.execute(create_table_query)
+
