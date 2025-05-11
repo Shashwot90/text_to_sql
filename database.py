@@ -19,4 +19,5 @@ cursor.execute(create_table_query)
 sql_query = """INSERT INTO STUDENT (NAME, COURSE, SECTION, MARKS) VALUES (?, ?, ?, ?)"""
 values = [
     ('Student1', 'Data Science', 'A', 90),
+    ('Student2', 'Data Science', 'B', 100),
     
