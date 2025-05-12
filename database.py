@@ -25,3 +25,4 @@ values = [
     ('Student5', 'DEVOPS', 'A', 35)
 ]
 
+cursor.executemany(sql_query, values)
