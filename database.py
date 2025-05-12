@@ -22,4 +22,4 @@ values = [
     ('Student2', 'Data Science', 'B', 100),
     ('Student3', 'Data Science', 'A', 86),
     ('Student4', 'DEVOPS', 'A', 50),
-    
+    ('Student5', 'DEVOPS', 'A', 35)
