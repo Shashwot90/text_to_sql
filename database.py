@@ -26,3 +26,4 @@ values = [
 ]
 
 cursor.executemany(sql_query, values)
+connection.commit()
