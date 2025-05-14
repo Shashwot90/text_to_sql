@@ -29,3 +29,5 @@ cursor.executemany(sql_query, values)
 connection.commit()
 
 data = cursor.execute("""Select * from STUDENT""")
+
+for row in data:
