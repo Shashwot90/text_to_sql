@@ -34,3 +34,4 @@ for row in data:
     print(row) 
     
 if connection:
+    connection.close()
