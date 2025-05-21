@@ -10,4 +10,5 @@ def get_sql_query_from_text(user_query):
                     You are an expert in converting English questions to SQL query!
                     The SQL database has the name STUDENT and has the following columns - NAME, COURSE, 
                     SECTION and MARKS. For example, 
+                    Example 1 - How many entries of records are present?, 
                     
