@@ -9,4 +9,5 @@ def get_sql_query_from_text(user_query):
     groq_sys_prompt = ChatPromptTemplate.from_template("""
                     You are an expert in converting English questions to SQL query!
                     The SQL database has the name STUDENT and has the following columns - NAME, COURSE, 
+                    SECTION and MARKS. For example, 
                     
