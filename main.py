@@ -7,4 +7,5 @@ from langchain_core.prompts import ChatPromptTemplate
 
 def get_sql_query_from_text(user_query):
     groq_sys_prompt = ChatPromptTemplate.from_template("""
+                    You are an expert in converting English questions to SQL query!
                     
