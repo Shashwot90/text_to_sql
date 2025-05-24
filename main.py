@@ -14,4 +14,5 @@ def get_sql_query_from_text(user_query):
                         the SQL command will be something like this SELECT COUNT(*) FROM STUDENT;
                     Example 2 - Tell me all the students studying in Data Science COURSE?, 
                         the SQL command will be something like this SELECT * FROM STUDENT 
+                        where COURSE="Data Science"; 
                     
