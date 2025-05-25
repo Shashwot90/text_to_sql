@@ -17,4 +17,5 @@ def get_sql_query_from_text(user_query):
                         where COURSE="Data Science"; 
                     also the sql code should not have ``` in beginning or end and sql word in output.
                     Now convert the following question in English to a valid SQL Query: {user_query}. 
-                    
+                    No preamble, only valid SQL please
+                   
