@@ -20,4 +20,5 @@ def get_sql_query_from_text(user_query):
                     No preamble, only valid SQL please
                                                        """)
     model="llama3-8b-8192"
+    llm = ChatGroq(
     
