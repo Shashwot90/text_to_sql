@@ -23,3 +23,4 @@ def get_sql_query_from_text(user_query):
     llm = ChatGroq(
          
         groq_api_key = os.environ.get("GROQ_API_KEY"),
+        model_name=model,
