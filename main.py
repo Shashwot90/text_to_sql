@@ -26,4 +26,4 @@ def get_sql_query_from_text(user_query):
         model_name=model,
         
     )
-    
+    chain = groq_sys_prompt | llm | StrOutputParser()
