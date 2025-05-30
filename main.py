@@ -29,3 +29,5 @@ def get_sql_query_from_text(user_query):
     chain = groq_sys_prompt | llm | StrOutputParser()
     sql_query = chain.invoke({'user_query': user_query})
     
+    
+    return sql_query
