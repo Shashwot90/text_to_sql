@@ -31,3 +31,6 @@ def get_sql_query_from_text(user_query):
     
     
     return sql_query
+
+def get_data_from_database(sql_query):
+    
