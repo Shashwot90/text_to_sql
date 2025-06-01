@@ -34,4 +34,5 @@ def get_sql_query_from_text(user_query):
 
 def get_data_from_database(sql_query):
     database = 'student.db'
+    with sqlite3.connect(database) as conn:
     
