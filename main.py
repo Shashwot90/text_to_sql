@@ -36,3 +36,7 @@ def get_data_from_database(sql_query):
     database = 'student.db'
     with sqlite3.connect(database) as conn:
         return conn.execute(sql_query).fetchall()
+    
+    
+def main():
+    
