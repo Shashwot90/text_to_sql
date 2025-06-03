@@ -41,3 +41,4 @@ def get_data_from_database(sql_query):
 def main():
     st.set_page_config(page_title="Text to SQL")
     st.header("Talk to your Database!")
+    user_query = st.text_input("Input: ")
