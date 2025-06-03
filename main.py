@@ -43,3 +43,5 @@ def main():
     st.header("Talk to your Database!")
     user_query = st.text_input("Input: ")
     submit = st.button("Enter")
+    
+    if submit:
