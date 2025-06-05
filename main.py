@@ -47,9 +47,3 @@ def main():
     if submit:
         sql_query = get_sql_query_from_text(user_query)
         retrieved_data = get_data_from_database(sql_query)
-        st.subheader(f"Retrieving results from the database for the query: [{sql_query}]")
-        for row in retrieved_data:
-            st.header(row)
-    
-if __name__ =="__main__":
-    main()
