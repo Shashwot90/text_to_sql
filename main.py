@@ -49,7 +49,3 @@ def main():
         retrieved_data = get_data_from_database(sql_query)
         st.subheader(f"Retrieving results from the database for the query: [{sql_query}]")
         for row in retrieved_data:
-            st.header(row)
-    
-if __name__ =="__main__":
-    main()
